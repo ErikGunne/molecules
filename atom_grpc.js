@@ -1,7 +1,7 @@
 var PROTO_PATH = __dirname + '/Atom.proto';
 
-const host = atom.config.get('raftjs.RaftHost')
-const port = atom.config.get('raftjs.RaftPort')
+const host = atom.config.get('molecules.RaftHost')
+const port = atom.config.get('molecules.RaftPort')
 
 var grpc = require('./node_modules/grpc');
 var protoLoader = require('./node_modules/@grpc/proto-loader');

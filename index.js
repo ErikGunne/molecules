@@ -1,2 +1,2 @@
-const RaftJs = require('./lib/raft-js')
-module.exports = new RaftJs({config: atom.config})
+const molecules = require('./lib/molecules')
+module.exports = new molecules({config: atom.config})

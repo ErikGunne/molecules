@@ -16,13 +16,14 @@
         "default": "name"
       }
     },
-    "name": "raftjs",
+    "name": "molecules",
     "main": "index.js",
     "version": "0.0.0",
-    "description": "A short description of your package",
+    "repository": "https://github.com/ErikGunne/molecules",
+    "description": "A real time shared document pluging for coding together",
     "license": "MIT",
     "activationCommands": {
-        "atom-workspace": "raft-js:activate",
+        "atom-workspace": "molecules:activate"
     },
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
