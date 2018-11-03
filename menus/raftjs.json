@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "activate",
+        "command": "raft-js:activate"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "raftjs",
+          "submenu": [
+            {
+              "label": "activate",
+              "command": "raft-js:activate"
+            },
+            {
+              "label": "deactivate",
+              "command": "atom:reload"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

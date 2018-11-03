@@ -1,0 +1,38 @@
+{
+    "configSchema": {
+      "RaftPort": {
+        "description": "Port",
+        "type": "integer",
+        "default": 1337,
+        "minium": 1024,
+        "maximum": 65535
+      },
+      "RaftHost": {
+        "type": "string",
+        "default": "localhost"
+      },
+      "RaftID": {
+        "type": "string",
+        "default": "name"
+      }
+    },
+    "name": "raftjs",
+    "main": "index.js",
+    "version": "0.0.0",
+    "description": "A short description of your package",
+    "license": "MIT",
+    "activationCommands": {
+        "atom-workspace": "raft-js:activate",
+    },
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {
+        "@grpc/proto-loader": "^0.3.0",
+        "grpc": "^1.15.1",
+        "request": "^2.73.0"
+    },
+    "scripts": {
+        "postinstall": "npm rebuild --target=2.0.0 --runtime=electron --dist-url=https://atom.io/download/electron"
+    }
+}

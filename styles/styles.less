@@ -1,0 +1,43 @@
+.eri {
+    color: #0066ff;  // Maroon.
+}
+
+// Color randomization taken from https://codepen.io/juanbrujo/pen/Evhzy
+
+.randomColor(){
+  @randomColor: `Math.floor(Math.random()*16777215).toString(16)`;
+  @colorHex: e(@randomColor);
+  @color: ~"#@{colorHex}";
+}
+
+.randomBackground(){
+  @randomColor: `Math.floor(Math.random()*16777215).toString(16)`;
+  @colorHex: e(@randomColor);
+  @background: ~"#@{colorHex}";
+}
+
+.randomSize(){
+    @randomSize: `Math.floor(Math.random()*10 + 8).toString(16)`;
+    @size: "@{randomSize}px";
+}
+
+@loop: 64;
+
+.looprandom {
+
+  .loop (@index) when (@index > 0){
+    &:nth-of-type(@{index}){
+      // INIT randomColor
+      .randomColor();
+	     color: @color;
+
+     .randomBackground();
+       background-color: @background;
+      // END randomColor
+    }
+    .loop (@index - 1);
+  }
+  .loop(0){}
+  .loop(@loop);
+
+}
