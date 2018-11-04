@@ -1,24 +1,24 @@
 {
     "configSchema": {
-      "RaftHost": {
-        "type": "string",
-        "default": "localhost"
-      },
-      "RaftPort": {
-        "description": "Port",
-        "type": "integer",
-        "default": 1337,
-        "minium": 1024,
-        "maximum": 65535
-      },
-      "RaftID": {
-        "type": "string",
-        "default": "name"
-      }
+        "RaftHost": {
+            "type": "string",
+            "default": "localhost"
+        },
+        "RaftPort": {
+            "description": "Port",
+            "type": "integer",
+            "default": 1337,
+            "minium": 1024,
+            "maximum": 65535
+        },
+        "RaftID": {
+            "type": "string",
+            "default": "name"
+        }
     },
     "name": "molecules",
     "main": "index.js",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "repository": "https://github.com/ErikGunne/molecules",
     "description": "A real time shared document pluging for coding together",
     "license": "MIT",
