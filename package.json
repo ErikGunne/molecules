@@ -18,7 +18,7 @@
     },
     "name": "molecules",
     "main": "index.js",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "repository": "https://github.com/ErikGunne/molecules",
     "description": "A real time shared document plugin for coding together.",
     "license": "MIT",
