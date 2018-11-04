@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "activate",
-        "command": "raft-js:activate"
+        "command": "molecules:activate"
       }
     ]
   },
@@ -12,15 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "raftjs",
+          "label": "Molecules",
           "submenu": [
             {
               "label": "activate",
-              "command": "raft-js:activate"
-            },
-            {
-              "label": "deactivate",
-              "command": "atom:reload"
+              "command": "molecules:activate"
             }
           ]
         }
