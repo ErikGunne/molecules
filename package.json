@@ -18,7 +18,7 @@
     },
     "name": "molecules",
     "main": "index.js",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "repository": "https://github.com/Guacamolecules/molecules",
     "description": "A real time shared document plugin for coding together.",
     "license": "MIT",
