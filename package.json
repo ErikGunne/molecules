@@ -20,7 +20,7 @@
     "main": "index.js",
     "version": "0.4.0",
     "repository": "https://github.com/ErikGunne/molecules",
-    "description": "A real time shared document pluging for coding together",
+    "description": "A real time shared document plugin for coding together.",
     "license": "MIT",
     "activationCommands": {
         "atom-workspace": "molecules:activate"
