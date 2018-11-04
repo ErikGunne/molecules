@@ -1,5 +1,7 @@
 Molecules - a real time shared document plugin for coding together.
 
+Written by Erik Gunne, Jakob Lindqvist and William Viktorsson.
+
 This plugin was built as part of the course **5DV205 - Advanced distributed systems** at Umea University in the fall of 2018.
 
 The plugin communicates with one of several servers running our implementation of **Raft** for a shared replicated state.
