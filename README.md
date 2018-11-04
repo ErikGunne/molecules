@@ -4,6 +4,6 @@ This plugin was built as part of the course **5DV205 - Advanced distributed syst
 
 The plugin communicates with one of several servers running our implementation of **Raft** for a shared replicated state.
 
-This plugin is as of November 2018 only feasible to use in conjunction with said servers and does not function as a stand-alone plugin.
+As of November 2018 this plugin is only feasible to use together with previously mentioned servers and does not function as a stand-alone plugin.
 
-The hopes are to continue the work on this in conjunctin with the course **5DV192 - Cloud Computing**. Applying membership changes to the Raft implementation should allow for building it into the Atom plugin and making it feasible for usage as a standalone product.
+The hopes are to continue the work on this in conjunction with the course **5DV192 - Cloud Computing**. Applying membership changes to the Raft implementation should allow for building it into the Atom plugin and making it feasible for usage as a standalone product.
